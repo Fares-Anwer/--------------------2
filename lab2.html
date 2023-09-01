@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .p1{
+        font-size: 20px;
+    }
+</style>
+
+<body background="backimag.jpg" bgcolor="#fffffe" text="#000066" link="#00ff00" vlink="#ff0000" alink="#999999">
+    <h1>lab2</h1>
+    <!--img from another file-->
+    <img src="img/FB_IMG_1673453017959.jpg" alt="my image" height="500" width="500"><br>
+    <a href="lab3.html" target="_blank">with _blank</a><br>
+    <a href="lab3.html" target="_parent">with _parent</a><br>
+    <a href="lab3.html" target="_self">with _self</a><br>
+    <a href="lab3.html" target="_top">with _top</a><br>
+    <a href="lab3.html">
+        <img src="img/FB_IMG_1673453017959.jpg" alt="img" height="500" width="500"><br>
+    </a>
+    <div class="p1">
+        <p>this picture is link</p>
+        <!-- <font size="+3">this picture is link</font> -->
+    </div>
+    <!-- link to another page with id -->
+    <p>link to another page with id </p>
+    <a href="lab3.html#tip">go to lab3</a><br>
+    <iframe src="lab3.html" frameborder="0"  width="300" height="200" name="iframe_a"></iframe>
+    <!-- to use a target with iframe -->
+    <p><a href="lab3.html" target="iframe_a">my page</a></p>
+</body>
+
+</html>
